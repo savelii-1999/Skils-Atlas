@@ -1,0 +1,11 @@
+interface:
+  display_name: "Import skills"
+  short_description: "Review and import local skills"
+  default_prompt: "Call list_import_destinations first, then discover local skills, classify them against live departments, and import only the folders I approve."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "skills-atlas"
+      description: "Preview destinations and upload approved skill folders"
+      transport: "streamable_http"
+      url: "https://skills.aiwithremy.com/api/mcp"

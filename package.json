@@ -1,0 +1,15 @@
+{
+  "name": "skills-atlas-plugin",
+  "version": "0.5.0",
+  "private": true,
+  "description": "Skills Atlas Claude plugin marketplace. First plugin extracts local skills into Atlas over MCP.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "configure:endpoint": "node scripts/configure-endpoint.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "skills-atlas",
+  "owner": {
+    "name": "AI with Remy"
+  },
+  "metadata": {
+    "description": "Skills Atlas plugin marketplace. Import local Agent Skills into Skills Atlas and install a team's approved skills.",
+    "version": "0.5.0"
+  },
+  "renames": {
+    "skills-atlas": "extract-skills"
+  },
+  "plugins": [
+    {
+      "name": "extract-skills",
+      "source": "./plugins/extract-skills",
+      "description": "Discover local Agent Skills, classify them against live Skills Atlas departments, and upload only the complete folders you approve. Also installs a team's approved skills.",
+      "version": "0.5.0",
+      "category": "productivity",
+      "keywords": ["skills", "atlas", "import", "team", "mcp"]
+    }
+  ]
+}
